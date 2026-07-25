@@ -88,10 +88,13 @@ a {
             padding: 1.5em;
             margin: 0.5em;
             border-radius: 30px;
+            font-size: large;
+            font-weight: 700;
         }
         .primary-btn:hover {
             background: transparent;
             background-color: #2563eb;
+
         }
         
         .secondary-btn {
@@ -99,11 +102,15 @@ a {
             margin: 0.5em;
             border-radius: 30px;
             background-color: #b155ee;
+            font-size: large;
+            font-weight: 700;
+            color: #fff;
         }
         
         .secondary-btn:hover {
             background: transparent;
-        background-color: #a32fa7;
+            background-color: #a32fa7;
+        
         }
 
         .hero-image img {
@@ -146,7 +153,11 @@ a {
         }
 
         .testimonial-card  h3 {
-            color: rgb(79, 4, 122);
+            color: #a32fa7;
+            
+        }
+        .testimonial-card  h3:hover {
+            color: #2563eb;
             
         }
 
@@ -213,13 +224,19 @@ a {
 
 
         .service-card > h4 {
-            color: rgb(79, 4, 122);
-
+            font-size: large;
+            color: #a32fa7;
         }
 
 
+        .service-card > h4:hover {
+            color: #2563eb;
+            
+        }
+        
+        
         /* Pricing Section  */
-
+        
         #pricing > h3 {
             width: 600px;
             margin: 20px auto;
@@ -228,7 +245,14 @@ a {
         }
 
         .pricing-card > h4 {
-            color: rgb(79, 4, 122);
+            color: #a32fa7;
+            font-size: x-large;     
+            
+        }
+
+
+        .pricing-card > h4:hover {
+            color: #2563eb;
         }
 
         .pricing-container {
@@ -256,16 +280,22 @@ a {
             font-size: x-large;
             font-weight: bold;
         }
-
+        
         .pricing-card * {
             margin: 5px auto;
         }
-
+        
         .pricing-button {
             padding: 1.5em;
             border-radius: 7px;
+            font-size: small;
+            font-weight: bold;
         }
 
+        .pricing-button:hover {
+            background-color: #2563eb;
+
+        }
 
         /* Contact Us  */
 
@@ -282,13 +312,25 @@ a {
 
         .contact-us-container > h3 {
             font-size: x-large;
-            color: rgb(79, 4, 122);
+            color: #a32fa7;
+        }
+
+
+        .contact-us-container > h3:hover {
+            color: #2563eb;
+            
         }
 
         .contact-us-button {
             margin-bottom: 11px;
             padding: 1.1em 2em;
             border-radius: 7px;
+            font-size: small;
+            font-weight: bold;
+        }
+
+        .contact-us-button:hover {
+            background-color: #2563eb;
         }
 
         .contact-us-input , #contact-us-message {
@@ -330,12 +372,23 @@ a {
         font-weight: bold;
         color: #2563eb;
     }
-    
+
+    .copyright-text:hover {
+            color: #9666eb;
+            
+        }
     
     .task {
         font-weight: bold;
         color: #9666eb;
     }
+    .task:hover {
+            color: #2563eb;
+            
+    }
+
+
+
 
 
     /* Media Queries  */
