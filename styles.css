@@ -23,3 +23,17 @@ a {
     color: inherit;
 }
 
+.toggle-menu {
+    display: none;
+}
+
+
+@media (width < 768px) {
+    .toggle-menu {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+}
