@@ -76,249 +76,6 @@ a {
 
 /*  Hero Section  */
 
-#hero {
-    min-height: 90vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-
-    padding: 5rem 2rem;
-}
-
-
-.hero-content {
-    max-width: 600px;
-}
-
-
-.hero-tag {
-    display: inline-block;
-
-    color: #7C3AED;
-    background-color: #EDE9FE;
-
-    padding: 0.5rem 1rem;
-    border-radius: 999px;
-
-    font-weight: 600;
-}
-
-
-.hero-content h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    line-height: 1.1;
-
-    color: #111827;
-
-    margin: 1rem 0;
-}
-
-
-.hero-description {
-    font-size: 1.125rem;
-    line-height: 1.7;
-
-    color: #6B7280;
-
-    margin-bottom: 2rem;
-}
-
-
-.hero-actions {
-    display: flex;
-    gap: 1rem;
-}
-
-
-.btn-primary {
-    background-color: #7C3AED;
-    color: white;
-
-    padding: 0.9rem 1.8rem;
-
-    border-radius: 0.5rem;
-
-    text-decoration: none;
-    font-weight: 600;
-
-    transition: background-color .2s ease;
-}
-
-
-.btn-primary:hover {
-    background-color: #6D28D9;
-}
-
-
-.btn-secondary {
-    border: 1px solid #7C3AED;
-
-    color: #7C3AED;
-
-    padding: 0.9rem 1.8rem;
-
-    border-radius: 0.5rem;
-
-    text-decoration: none;
-    font-weight: 600;
-}
-
-
-/* Testimonials  */
-
-
-#testimonial {
-    padding: 5rem 2rem;
-    background: #F8FAFC;
-}
-
-
-.section-header {
-    max-width: 650px;
-    margin: 0 auto 3rem;
-    text-align: center;
-}
-
-
-.section-tag {
-    color: #7C3AED;
-    font-weight: 600;
-}
-
-
-.section-header h2 {
-    color: #111827;
-    font-size: clamp(2rem, 4vw, 3rem);
-}
-
-
-.section-header p {
-    color: #6B7280;
-    line-height: 1.7;
-}
-
-
-
-.testimonial-grid {
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 2rem;
-
-    max-width: 1200px;
-
-    margin: auto;
-}
-
-
-
-.testimonial-card {
-
-    background: white;
-
-    padding: 2rem;
-
-    border-radius: 1rem;
-
-    border: 1px solid #E5E7EB;
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 1rem;
-}
-
-
-
-.quote {
-
-    font-size: 3rem;
-
-    color: #7C3AED;
-
-    line-height: 1;
-}
-
-
-
-.testimonial-card p {
-
-    color: #6B7280;
-
-    line-height: 1.7;
-
-}
-
-
-
-.client {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 1rem;
-
-    margin-top: auto;
-}
-
-
-
-.client-avatar {
-
-    width: 45px;
-
-    height: 45px;
-
-    border-radius: 50%;
-
-    background: #EDE9FE;
-
-    color: #7C3AED;
-
-    display: grid;
-
-    place-items: center;
-
-    font-weight: 700;
-}
-
-
-
-.client h3 {
-
-    font-size: 1rem;
-
-    color: #111827;
-
-    margin: 0;
-}
-
-
-.client span {
-
-    color: #6B7280;
-
-    font-size: 0.9rem;
-}
-
-
-
-.result {
-
-    color: #7C3AED;
-
-}
-
-
-
-
-
 
 
 
@@ -352,16 +109,8 @@ a {
 
 
 
-@media (max-width: 900px) {
 
-    .testimonial-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-@media (width <= 768px) {
+@media (max-width: 768px) {
     .toggle-menu {
         display: block;
     }
@@ -382,37 +131,32 @@ a {
         display: flex;
     }
 
-     #hero {
-        flex-direction: column;
-        text-align: center;
-        padding-top: 3rem;
+    #hero {
+        padding: 2.5rem;
     }
+    
+        .primary-btn {
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 30px;
+        }
+        .primary-btn:hover {
+            background: transparent;
+            background-color: #2563eb;
+        }
+        
+        .secondary-btn {
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 30px;
+            background-color: #b155ee;
+        }
+        
+        .secondary-btn:hover {
+            background: transparent;
+        background-color: #a32fa7;
+        }
 
 
-    .hero-actions {
-        justify-content: center;
-        flex-direction: column;
-    }
 
-
-    .hero-actions a {
-        width: 100%;
-        text-align: center;
-    }
-
-
-
-
-
-
-
-}
-@media (width > 768px) {
-    .toggle-menu {
-        display: none;
-    }
-
-    nav ul {
-        display: flex;
-    }
 }
