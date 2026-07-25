@@ -145,6 +145,11 @@ a {
             border-radius: 11px;
         }
 
+        .testimonial-card  h3 {
+            color: rgb(79, 4, 122);
+            
+        }
+
         .client {
             display: flex;
             justify-content: space-between;
@@ -261,6 +266,50 @@ a {
             border-radius: 7px;
         }
 
+
+        /* Contact Us  */
+
+        .contact-us-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 320px;
+            margin: 11px auto;
+            gap: 1em;
+            border: 1px solid black;
+            border-radius: 11px;
+        }
+
+        .contact-us-container > h3 {
+            font-size: x-large;
+            color: rgb(79, 4, 122);
+        }
+
+        .contact-us-button {
+            margin-bottom: 11px;
+            padding: 1.1em 2em;
+            border-radius: 7px;
+        }
+
+        .contact-us-input , #contact-us-message {
+            width: 230px;
+            line-height: 1.5;
+            padding: 0.7em;
+            margin: 0 auto;
+            border-radius: 7px;
+            border: 1px solid black;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            text-align: left;
+            align-items: first baseline;
+        }
+
+
+
     /* Footer Section  */
 
     footer {
@@ -311,6 +360,14 @@ a {
 
     #services > h3, #services > p  {
         width: 320px;
+    }
+
+    .contact-us-container {
+        width: 270px;
+    }
+
+    .contact-us-input, #contact-us-message {
+        width: 200px;
     }
 
 }
