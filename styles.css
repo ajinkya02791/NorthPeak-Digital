@@ -117,7 +117,8 @@ a {
         /* Testinomial Section  */
 
         .p-text {
-            color: rgb(175, 144, 144);
+            color: rgb(114, 105, 105);
+            font-size: large;
             text-align: center;
         }
 
@@ -191,6 +192,7 @@ a {
             display: flex;
             flex-direction: column;
             width: 200px;
+            padding: 0.5em;
             text-align: center;
             border: 1px solid black;
             border-radius: 11px;
@@ -204,6 +206,60 @@ a {
               0 8px 10px -6px rgba(0, 0, 0, 0.04);
         }
 
+
+        .service-card > h4 {
+            color: rgb(79, 4, 122);
+
+        }
+
+
+        /* Pricing Section  */
+
+        #pricing > h3 {
+            width: 600px;
+            margin: 20px auto;
+            margin-top: 11px;
+            text-align: center;
+        }
+
+        .pricing-card > h4 {
+            color: rgb(79, 4, 122);
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+        
+        
+        .pricing-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 240px;
+            border: 1px solid black;
+            padding: 0.5em;
+            border-radius: 11px;
+            
+        }
+
+
+        .price {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .pricing-card * {
+            margin: 5px auto;
+        }
+
+        .pricing-button {
+            padding: 1.5em;
+            border-radius: 7px;
+        }
 
     /* Footer Section  */
 
@@ -255,6 +311,14 @@ a {
 
     #services > h3, #services > p  {
         width: 320px;
+    }
+
+}
+
+@media (max-width:640px) {
+
+    #pricing > h3 {
+        width: 340px;
     }
 
 }
