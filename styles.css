@@ -78,20 +78,93 @@ a {
 
 
 
+    #hero {
+        display: flex;
+        gap: 2em;
+        padding: 2.5rem;
+    }
+    
+        .primary-btn {
+            padding: 1.5em;
+            margin: 0.5em;
+            border-radius: 30px;
+        }
+        .primary-btn:hover {
+            background: transparent;
+            background-color: #2563eb;
+        }
+        
+        .secondary-btn {
+            padding: 1.5em;
+            margin: 0.5em;
+            border-radius: 30px;
+            background-color: #b155ee;
+        }
+        
+        .secondary-btn:hover {
+            background: transparent;
+        background-color: #a32fa7;
+        }
+
+        .hero-image img {
+            object-fit: cover;
+            width: 23em;
+            border-radius: 30px;
+        }
 
 
 
+        /* Testinomial Section  */
 
+        .p-text {
+            color: rgb(175, 144, 144);
+            text-align: center;
+        }
 
+        #testimonial {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+        }
 
+        .testimonial-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
+        .testimonial-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 200px;
+            margin: 11px;
+            padding: 1em;
+            border: 2px solid black;
+            border-radius: 11px;
+        }
 
+        .client {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5em;
+            margin: 0;
+        }
 
+        .client img {
+        width: 1.5em;
+        }
 
+        .client-name-company {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            justify-content: center;
+        }
 
-
-
-
+        .client-name-company h3, .client-name-company p {
+            margin: 0;
+        }
 
 
 
@@ -132,30 +205,12 @@ a {
     }
 
     #hero {
-        padding: 2.5rem;
+        flex-direction: column;
     }
-    
-        .primary-btn {
-            padding: 1em;
-            margin: 0.5em;
-            border-radius: 30px;
-        }
-        .primary-btn:hover {
-            background: transparent;
-            background-color: #2563eb;
-        }
-        
-        .secondary-btn {
-            padding: 1em;
-            margin: 0.5em;
-            border-radius: 30px;
-            background-color: #b155ee;
-        }
-        
-        .secondary-btn:hover {
-            background: transparent;
-        background-color: #a32fa7;
-        }
+
+    .hero-image img {
+        width: 100%;
+    }
 
 
 
