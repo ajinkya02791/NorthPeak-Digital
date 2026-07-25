@@ -58,7 +58,7 @@ a {
 }
 
 .toggle-menu:focus-visible {
-    outline: 2px solid #2563eb;
+    outline: 2px solid #0040c9f3;
     outline-offset: 4px;
 }
 
@@ -93,7 +93,7 @@ a {
         }
         .primary-btn:hover {
             background: transparent;
-            background-color: #2563eb;
+            background-color: #0040c9f3;
 
         }
         
@@ -101,7 +101,7 @@ a {
             padding: 1.5em;
             margin: 0.5em;
             border-radius: 30px;
-            background-color: #b155ee;
+            background-color: #7B0FC7;
             font-size: large;
             font-weight: 700;
             color: #fff;
@@ -109,7 +109,7 @@ a {
         
         .secondary-btn:hover {
             background: transparent;
-            background-color: #a32fa7;
+            background-color: #7B0FC7;
         
         }
 
@@ -153,11 +153,11 @@ a {
         }
 
         .testimonial-card  h3 {
-            color: #a32fa7;
+            color: #7B0FC7;
             
         }
         .testimonial-card  h3:hover {
-            color: #2563eb;
+            color: #0040c9f3;
             
         }
 
@@ -186,7 +186,7 @@ a {
 
         /* Services Section  */
 
-        #services > h3, #services > p {
+        #services > h2, #services > p {
             width: 400px;
             margin: 20px auto;
             text-align: center;
@@ -223,14 +223,14 @@ a {
         }
 
 
-        .service-card > h4 {
+        .service-card > h3 {
             font-size: large;
-            color: #a32fa7;
+            color: #7B0FC7;
         }
 
 
-        .service-card > h4:hover {
-            color: #2563eb;
+        .service-card > h3:hover {
+            color: #0040c9f3;
             
         }
         
@@ -238,21 +238,20 @@ a {
         /* Pricing Section  */
         
         #pricing > h3 {
-            width: 600px;
+            width: 630px;
             margin: 20px auto;
             margin-top: 11px;
             text-align: center;
         }
 
-        .pricing-card > h4 {
-            color: #a32fa7;
-            font-size: x-large;     
+        .pricing-card > h3 {
+            color: #7B0FC7;
             
         }
 
 
-        .pricing-card > h4:hover {
-            color: #2563eb;
+        .pricing-card > h3:hover {
+            color: #0040c9f3;
         }
 
         .pricing-container {
@@ -293,7 +292,7 @@ a {
         }
 
         .pricing-button:hover {
-            background-color: #2563eb;
+            background-color: #0040c9f3;
 
         }
 
@@ -310,14 +309,14 @@ a {
             border-radius: 11px;
         }
 
-        .contact-us-container > h3 {
+        .contact-us-container > h2 {
             font-size: x-large;
-            color: #a32fa7;
+            color: #7B0FC7;
         }
 
 
-        .contact-us-container > h3:hover {
-            color: #2563eb;
+        .contact-us-container > h2:hover {
+            color: #0040c9f3;
             
         }
 
@@ -330,7 +329,7 @@ a {
         }
 
         .contact-us-button:hover {
-            background-color: #2563eb;
+            background-color: #0040c9f3;
         }
 
         .contact-us-input , #contact-us-message {
@@ -370,7 +369,7 @@ a {
     
     .copyright-text {
         font-weight: bold;
-        color: #2563eb;
+        color: #0040c9f3;
     }
 
     .copyright-text:hover {
@@ -383,7 +382,7 @@ a {
         color: #9666eb;
     }
     .task:hover {
-            color: #2563eb;
+            color: #0040c9f3;
             
     }
 
