@@ -314,13 +314,31 @@ a {
 
     footer {
         display: flex;
+        margin: 20px;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        border-top: 1px solid black;
+    }
+    
+    footer * {
+        margin: 0 auto;
+    }
+
+    
+    .copyright-text {
+        font-weight: bold;
+        color: #2563eb;
+    }
+    
+    
+    .task {
+        font-weight: bold;
+        color: #9666eb;
     }
 
 
-
+    /* Media Queries  */
 
 @media (max-width: 768px) {
     .toggle-menu {
