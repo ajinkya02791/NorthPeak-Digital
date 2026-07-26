@@ -374,9 +374,16 @@ a {
         .contact-details {
             display: flex;
             flex-direction: column;
-            gap: 0.5em;
             text-align: left;
-            align-items: first baseline;
+            gap: 0.1em;
+            margin: 5px;
+        }
+
+
+        #form  {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
         }
 
 
