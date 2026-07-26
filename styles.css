@@ -80,8 +80,17 @@ a {
 
     #hero {
         display: flex;
+        justify-content: space-around;
         gap: 2em;
         padding: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: larger;
+    }
+
+    .hero-text {
+        flex: 1;
     }
     
         .primary-btn {
@@ -115,7 +124,7 @@ a {
 
         .hero-image img {
             object-fit: cover;
-            width: 23em;
+            max-width: 32em;
             border-radius: 30px;
         }
 
@@ -187,7 +196,7 @@ a {
         /* Services Section  */
 
         #services > h2, #services > p {
-            width: 400px;
+            width: 500px;
             margin: 20px auto;
             text-align: center;
         }
@@ -207,7 +216,7 @@ a {
         .service-card {
             display: flex;
             flex-direction: column;
-            width: 200px;
+            width: 300px;
             padding: 0.5em;
             text-align: center;
             border: 1px solid black;
@@ -224,10 +233,13 @@ a {
 
 
         .service-card > h3 {
-            font-size: large;
+            font-size: larger;
             color: #7B0FC7;
         }
 
+        .service-card > p {
+            font-size: large;
+        }
 
         .service-card > h3:hover {
             color: #0040c9f3;
@@ -392,6 +404,15 @@ a {
 
     /* Media Queries  */
 
+
+    @media (max-width : 990px) {
+        #hero {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
 @media (max-width: 768px) {
     .toggle-menu {
         display: block;
@@ -426,9 +447,9 @@ a {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 600px) {
 
-    #services > h3, #services > p  {
+    #services > h2, #services > p  {
         width: 320px;
     }
 
