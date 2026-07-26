@@ -11,6 +11,10 @@ nav {
     padding: 0 2rem;
 }
 
+section {
+    margin: 1em 11px;
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
@@ -145,7 +149,6 @@ a {
         #testimonial {
             display: flex;
             flex-direction: column;
-            padding: 2rem;
         }
 
         #testimonial > h2, #testimonial > p {
@@ -318,6 +321,12 @@ a {
         }
 
         /* Contact Us  */
+
+        #contact-us {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
 
         .contact-us-container {
             display: flex;
