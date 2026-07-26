@@ -282,26 +282,30 @@
         <p class="p-text">Our Contact Section</p>
 
         <div class="contact-us-container">
-
+            
             <h2>Contact Us</h2>
-
+            <form id="form" >
             <div class="contact-details">
             <label for="name" aria-label="Name for the Contact Detail">Name</label>
-                <input id="name" name="name" type="text" class="contact-us-input">
+                <input id="name" name="name" type="text" class="contact-us-input" minlength="2" required>
+                <p id="nameError"></p>
             </div>
-
+            
             <div class="contact-details">
-            <label for="email" aria-label="Email for the Contact Detail">Email</label>
-                <input id="email" name="email" type="text" class="contact-us-input">
+                <label for="email" aria-label="Email for the Contact Detail">Email</label>
+                <input id="email" name="email" type="email" class="contact-us-input" required>
+                <p id="emailError"></p>
             </div>
-
+            
             <div class="contact-details">
-            <label for="contact-us-message" aria-label="Message for the Contact Detail">Message</label>
-                <textarea name="message" id="contact-us-message" rows="5"></textarea>
+                <label for="contact-us-message" aria-label="Message for the Contact Detail">Message</label>
+                <textarea name="message" id="contact-us-message" rows="5" required></textarea>
+                <p id="messageError"></p>
             </div>
-
-
-            <button class="contact-us-button">Submit</button>
+            
+            
+            <button type="submit" class="contact-us-button">Submit</button>
+        </form>
 
         </div>
 
