@@ -144,6 +144,12 @@ a {
             padding: 2rem;
         }
 
+        #testimonial > h2, #testimonial > p {
+            width: 500px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
         .testimonial-container {
             display: flex;
             justify-content: center;
@@ -249,10 +255,9 @@ a {
         
         /* Pricing Section  */
         
-        #pricing > h3 {
-            width: 630px;
+        #pricing > h2 , #pricing > p{
+            width: 500px;
             margin: 20px auto;
-            margin-top: 11px;
             text-align: center;
         }
 
@@ -461,6 +466,18 @@ a {
         width: 200px;
     }
 
+    #testimonial > h2, #testimonial > p {
+        width: 320px;
+    }
+
+    #pricing > h2{
+        width: 320px;
+    }
+
+    #pricing > p {
+        width: 270px;
+    }
+
 }
 
 @media (max-width:640px) {
@@ -469,4 +486,11 @@ a {
         width: 340px;
     }
 
+}
+
+@media (max-width : 440px) {
+    
+    #testimonial > h2, #testimonial > p {
+        width: 270px;
+    }
 }
