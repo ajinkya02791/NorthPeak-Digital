@@ -31,6 +31,10 @@ nav ul {
     padding: 2rem;
 }
 
+nav li {
+    white-space: nowrap;
+}
+
 a {
     text-decoration: none;
     color: inherit;
