@@ -43,8 +43,11 @@ The landing page showcases NorthPeak Digital's services and brand identity throu
 │   └── favicon.ico
 ├── screenshots/
 │   ├── desktop.png
-│   ├── mobile.png
-│   └── lighthouse.png
+│   ├── mobile1.png
+│   ├── mobile2.png
+│   ├── mobile3.png
+│   └── lh1.png
+│   ├── lh3.png
 ├── index.html
 ├── style.css
 ├── script.js
