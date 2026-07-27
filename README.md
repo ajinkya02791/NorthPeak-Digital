@@ -98,7 +98,11 @@ Performance optimizations include:
 
 ### Mobile
 
-![Mobile Preview](./screenshots/mobile.png)
+![Mobile Preview](./screenshots/mobile1.png)
+
+![Mobile Preview](./screenshots/mobile2.png)
+
+![Mobile Preview](./screenshots/mobile3.png)
 
 ### Lighthouse Report
 
