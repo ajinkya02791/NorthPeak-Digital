@@ -46,3 +46,16 @@ form.addEventListener("submit", (event) => {
     }
 
 })
+
+
+document.getElementById("primary-btn").addEventListener("click", function() {
+  const target = document.getElementById("contact-us");
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+
+
+document.getElementById("secondary-btn").addEventListener("click", function() {
+  const target = document.getElementById("services");
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+});
