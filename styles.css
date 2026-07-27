@@ -101,20 +101,20 @@ a {
         flex: 1;
     }
     
-        .primary-btn {
+        #primary-btn {
             padding: 1.5em;
             margin: 0.5em;
             border-radius: 30px;
             font-size: large;
             font-weight: 700;
         }
-        .primary-btn:hover {
+        #primary-btn:hover {
             background: transparent;
             background-color: #0040c9f3;
 
         }
         
-        .secondary-btn {
+        #secondary-btn {
             padding: 1.5em;
             margin: 0.5em;
             border-radius: 30px;
@@ -124,7 +124,7 @@ a {
             color: #fff;
         }
         
-        .secondary-btn:hover {
+        #secondary-btn:hover {
             background: transparent;
             background-color: #7B0FC7;
         
